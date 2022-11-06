@@ -46,7 +46,7 @@ public class SignLisener implements Listener
 				
 				if(CustomFunction.hasPermission(player, "signurls.break"))
 				{
-					Material inhand = event.getPlayer().getItemInHand().getType();
+					Material inhand = event.getPlayer().getInventory().getItemInMainHand().getType();
 					
 					if(!(inhand == Material.GOLDEN_CARROT))
 					{

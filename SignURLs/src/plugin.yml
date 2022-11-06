@@ -3,6 +3,7 @@ main: net.willhastings.SignURLs.SignURLs
 version: ${version}
 author: bill1993
 softdepend: [Vault]
+api-version: 1.19
 
 commands:
   signurls:
